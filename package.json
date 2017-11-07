@@ -1,0 +1,35 @@
+{
+  "name": "stuck",
+  "version": "1.0.0",
+  "description": "Make all values on the current stack available",
+  "engine": ">=8.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addaleax/stuck.git"
+  },
+  "keywords": [
+    "stack",
+    "trace",
+    "inspection",
+    "inspector",
+    "diagnostics"
+  ],
+  "author": "Anna Henningsen <anna@addaleax.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/addaleax/stuck/issues"
+  },
+  "homepage": "https://github.com/addaleax/stuck#readme"
+}
